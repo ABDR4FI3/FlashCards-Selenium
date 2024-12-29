@@ -5,33 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bce90ab-9378-4c81-9daa-58f059d9ddf8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DashboardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium/.idea/material_theme_project_new.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium/src/main/java/org/example/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium/src/test/java/org/example/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WD/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WD/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WD/.idea/material_theme_project_new.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WD/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WD/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WD/ear/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WD/ejbs/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WD/ejbs/src/main/resources/META-INF/ejb-jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WD/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WD/primary-source/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WD/projects/logging/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WD/projects/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WD/servlets/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WD/servlets/servlet/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WD/servlets/servlet/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WD/servlets/servlet/src/main/webapp/index.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SignUpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/SignUpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DashboardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/DashboardTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,9 +54,11 @@
     "JUnit.AuthTest.TestSwitchToSignUp.executor": "Run",
     "JUnit.AuthTest.testGoogleTitle.executor": "Run",
     "JUnit.DashboardTest.TestLoginSuccessful.executor": "Run",
+    "JUnit.DashboardTest.TestQuizSetsDisplayed.executor": "Run",
     "JUnit.SignUpTest.TestSignUpSuccful.executor": "Run",
     "JUnit.SignUpTest.testSignUpDuplicateEmail.executor": "Run",
     "JUnit.SignUpTest.testSignUpDuplicateUserName.executor": "Run",
+    "Maven.WebDriver [test].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.codeium.enabled": "true",
@@ -100,7 +77,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.DashboardTest.TestLoginSuccessful">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn test" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.DashboardTest.TestQuizSetsDisplayed">
     <configuration name="AuthTest.TestShowPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebDriver" />
       <extension name="coverage">
@@ -133,7 +115,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignUpTest.TestSignUpSuccful" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DashboardTest.TestQuizSetsDisplayed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebDriver" />
       <extension name="coverage">
         <pattern>
@@ -142,8 +124,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.SignUpTest" />
-      <option name="METHOD_NAME" value="TestSignUpSuccful" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DashboardTest" />
+      <option name="METHOD_NAME" value="TestQuizSetsDisplayed" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -183,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DashboardTest.TestQuizSetsDisplayed" />
         <item itemvalue="JUnit.DashboardTest.TestLoginSuccessful" />
         <item itemvalue="JUnit.SignUpTest.testSignUpDuplicateEmail" />
         <item itemvalue="JUnit.AuthTest.TestShowPassword" />
         <item itemvalue="JUnit.SignUpTest.testSignUpDuplicateUserName" />
-        <item itemvalue="JUnit.SignUpTest.TestSignUpSuccful" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +191,7 @@
       <updated>1735485506653</updated>
       <workItem from="1735485507665" duration="4460000" />
       <workItem from="1735490422312" duration="81000" />
-      <workItem from="1735490514652" duration="6032000" />
+      <workItem from="1735490514652" duration="6997000" />
     </task>
     <servers />
   </component>
