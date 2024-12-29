@@ -94,11 +94,9 @@ public class SignUpTest {
             assertEquals(url, "http://localhost:4200/signup", "URL should match");
 
         } finally {
-
             driver.quit();
         }
     }
-
 
 
 }

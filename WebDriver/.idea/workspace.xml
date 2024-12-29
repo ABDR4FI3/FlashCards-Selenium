@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bce90ab-9378-4c81-9daa-58f059d9ddf8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/SignUpTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DashboardTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium/.idea/material_theme_project_new.xml" beforeDir="false" />
@@ -31,7 +31,7 @@
       <change beforePath="$PROJECT_DIR$/../WD/servlets/servlet/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../WD/servlets/servlet/src/main/webapp/index.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AuthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AuthTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SignUpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/SignUpTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +78,7 @@
     "JUnit.AuthTest.TestShowPassword.executor": "Run",
     "JUnit.AuthTest.TestSwitchToSignUp.executor": "Run",
     "JUnit.AuthTest.testGoogleTitle.executor": "Run",
+    "JUnit.DashboardTest.TestLoginSuccessful.executor": "Run",
     "JUnit.SignUpTest.TestSignUpSuccful.executor": "Run",
     "JUnit.SignUpTest.testSignUpDuplicateEmail.executor": "Run",
     "JUnit.SignUpTest.testSignUpDuplicateUserName.executor": "Run",
@@ -99,7 +100,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.AuthTest.TestShowPassword">
+  <component name="RunManager" selected="JUnit.DashboardTest.TestLoginSuccessful">
     <configuration name="AuthTest.TestShowPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebDriver" />
       <extension name="coverage">
@@ -116,7 +117,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AuthTest.TestSwitchToSignUp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DashboardTest.TestLoginSuccessful" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebDriver" />
       <extension name="coverage">
         <pattern>
@@ -125,8 +126,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AuthTest" />
-      <option name="METHOD_NAME" value="TestSwitchToSignUp" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DashboardTest" />
+      <option name="METHOD_NAME" value="TestLoginSuccessful" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -182,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AuthTest.TestShowPassword" />
+        <item itemvalue="JUnit.DashboardTest.TestLoginSuccessful" />
         <item itemvalue="JUnit.SignUpTest.testSignUpDuplicateEmail" />
+        <item itemvalue="JUnit.AuthTest.TestShowPassword" />
         <item itemvalue="JUnit.SignUpTest.testSignUpDuplicateUserName" />
         <item itemvalue="JUnit.SignUpTest.TestSignUpSuccful" />
-        <item itemvalue="JUnit.AuthTest.TestSwitchToSignUp" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +209,7 @@
       <updated>1735485506653</updated>
       <workItem from="1735485507665" duration="4460000" />
       <workItem from="1735490422312" duration="81000" />
-      <workItem from="1735490514652" duration="5073000" />
+      <workItem from="1735490514652" duration="6032000" />
     </task>
     <servers />
   </component>
