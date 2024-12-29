@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bce90ab-9378-4c81-9daa-58f059d9ddf8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/SignUpTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium/.idea/material_theme_project_new.xml" beforeDir="false" />
@@ -29,6 +30,7 @@
       <change beforePath="$PROJECT_DIR$/../WD/servlets/servlet/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../WD/servlets/servlet/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../WD/servlets/servlet/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AuthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AuthTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,21 +48,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ABDR4FI3"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ABDR4FI3&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ABDR4FI3/FlashCards-Selenium.git",
-    "accountId": "2179eb8b-afba-4ad7-b359-7041a5e99478"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ABDR4FI3/FlashCards-Selenium.git&quot;,
+    &quot;accountId&quot;: &quot;2179eb8b-afba-4ad7-b359-7041a5e99478&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2qtcqxRahvsumO80JPxLhbLcRc9" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -76,8 +78,12 @@
     "JUnit.AuthTest.TestShowPassword.executor": "Run",
     "JUnit.AuthTest.TestSwitchToSignUp.executor": "Run",
     "JUnit.AuthTest.testGoogleTitle.executor": "Run",
+    "JUnit.SignUpTest.TestSignUpSuccful.executor": "Run",
+    "JUnit.SignUpTest.testSignUpDuplicateEmail.executor": "Run",
+    "JUnit.SignUpTest.testSignUpDuplicateUserName.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.codeium.enabled": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -89,42 +95,11 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.AuthTest.TestSwitchToSignUp">
-    <configuration name="AuthTest.TestLoginSuccessful" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WebDriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AuthTest" />
-      <option name="METHOD_NAME" value="TestLoginSuccessful" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AuthTest.TestLoginUnsuccessful" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WebDriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AuthTest" />
-      <option name="METHOD_NAME" value="TestLoginUnsuccessful" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.AuthTest.TestShowPassword">
     <configuration name="AuthTest.TestShowPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebDriver" />
       <extension name="coverage">
@@ -157,7 +132,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AuthTest.testGoogleTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SignUpTest.TestSignUpSuccful" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebDriver" />
       <extension name="coverage">
         <pattern>
@@ -166,8 +141,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AuthTest" />
-      <option name="METHOD_NAME" value="testGoogleTitle" />
+      <option name="MAIN_CLASS_NAME" value="org.example.SignUpTest" />
+      <option name="METHOD_NAME" value="TestSignUpSuccful" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignUpTest.testSignUpDuplicateEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebDriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.SignUpTest" />
+      <option name="METHOD_NAME" value="testSignUpDuplicateEmail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignUpTest.testSignUpDuplicateUserName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebDriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.SignUpTest" />
+      <option name="METHOD_NAME" value="testSignUpDuplicateUserName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -175,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AuthTest.TestSwitchToSignUp" />
         <item itemvalue="JUnit.AuthTest.TestShowPassword" />
-        <item itemvalue="JUnit.AuthTest.TestLoginUnsuccessful" />
-        <item itemvalue="JUnit.AuthTest.TestLoginSuccessful" />
-        <item itemvalue="JUnit.AuthTest.testGoogleTitle" />
+        <item itemvalue="JUnit.SignUpTest.testSignUpDuplicateEmail" />
+        <item itemvalue="JUnit.SignUpTest.testSignUpDuplicateUserName" />
+        <item itemvalue="JUnit.SignUpTest.TestSignUpSuccful" />
+        <item itemvalue="JUnit.AuthTest.TestSwitchToSignUp" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +206,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1735485506653</updated>
-      <workItem from="1735485507665" duration="3629000" />
+      <workItem from="1735485507665" duration="4460000" />
+      <workItem from="1735490422312" duration="81000" />
+      <workItem from="1735490514652" duration="5073000" />
     </task>
     <servers />
   </component>

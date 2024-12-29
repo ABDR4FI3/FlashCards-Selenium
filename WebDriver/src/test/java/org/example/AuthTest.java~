@@ -58,6 +58,7 @@ public class AuthTest {
     void TestShowPassword() {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
+
         try {
             driver.get(BASE_URL);
             WebElement username = driver.findElement(By.xpath("//*[@id=\"username\"]"));
