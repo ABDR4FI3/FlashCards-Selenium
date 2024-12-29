@@ -73,4 +73,25 @@ public class AuthTest {
         }
     }
 
+    @Test
+    public void TestSwitchToSignUp() throws InterruptedException {
+        WebDriverManager.chromedriver().setup();
+        WebDriver driver = new ChromeDriver();
+
+        try {
+            driver.get(BASE_URL);
+            WebElement Title = driver.findElement(By.xpath("/html/body/app-root/app-login/div/div[1]/h2"));
+            assertEquals(Title.getText(), "Sign in to your account", "Title should match");
+            WebElement signUpLink = driver.findElement(By.xpath("/html/body/app-root/app-login/div/div[1]/p/a"));
+            signUpLink.click();
+            Thread.sleep(1000);
+            WebElement TitleSignUp = driver.findElement(By.xpath("/html/body/app-root/app-signup/div/div[1]/h2"));
+            assertEquals(TitleSignUp.getText(), "Create a new account", "Title should match");
+            String url = driver.getCurrentUrl();
+            assertEquals(url, "http://localhost:4200/signup", "URL should match");
+        } finally {
+            driver.quit();
+        }
+    }
+
 }
