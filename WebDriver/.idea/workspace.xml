@@ -5,14 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bce90ab-9378-4c81-9daa-58f059d9ddf8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AuthTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium/src/main/java/org/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD/ear/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD/ejbs/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD/ejbs/src/main/resources/META-INF/ejb-jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD/primary-source/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD/projects/logging/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD/projects/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD/servlets/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD/servlets/servlet/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD/servlets/servlet/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD/servlets/servlet/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AuthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AuthTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +73,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.AuthTest.TestLoginSuccessful.executor": "Run",
+    "JUnit.AuthTest.TestLoginUnsuccessful.executor": "Run",
+    "JUnit.AuthTest.TestShowPassword.executor": "Run",
     "JUnit.AuthTest.testGoogleTitle.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -72,7 +92,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.AuthTest.TestLoginSuccessful">
+  <component name="RunManager" selected="JUnit.AuthTest.TestShowPassword">
     <configuration name="AuthTest.TestLoginSuccessful" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebDriver" />
       <extension name="coverage">
@@ -84,6 +104,38 @@
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.AuthTest" />
       <option name="METHOD_NAME" value="TestLoginSuccessful" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthTest.TestLoginUnsuccessful" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebDriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AuthTest" />
+      <option name="METHOD_NAME" value="TestLoginUnsuccessful" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthTest.TestShowPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebDriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AuthTest" />
+      <option name="METHOD_NAME" value="TestShowPassword" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,6 +159,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AuthTest.TestShowPassword" />
+        <item itemvalue="JUnit.AuthTest.TestLoginUnsuccessful" />
         <item itemvalue="JUnit.AuthTest.TestLoginSuccessful" />
         <item itemvalue="JUnit.AuthTest.testGoogleTitle" />
       </list>
@@ -128,7 +182,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1735485506653</updated>
-      <workItem from="1735485507665" duration="2368000" />
+      <workItem from="1735485507665" duration="3028000" />
     </task>
     <servers />
   </component>
@@ -142,15 +196,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/org/example/AuthTest.java</url>
-          <line>13</line>
-          <properties class="org.example.AuthTest" method="TestLoginSuccessful">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

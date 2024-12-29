@@ -31,4 +31,46 @@ public class AuthTest {
             driver.quit();
         }
     }
+
+    @Test
+    public void TestLoginUnsuccessful() throws InterruptedException {
+        WebDriverManager.chromedriver().setup();
+        WebDriver driver = new ChromeDriver();
+
+        try {
+            driver.get(BASE_URL);
+            WebElement username = driver.findElement(By.xpath("//*[@id=\"username\"]"));
+            WebElement password = driver.findElement(By.xpath("//*[@id=\"password\"]"));
+            username.sendKeys("a43");
+            password.sendKeys("133"); // Wrong Password
+            WebElement loginButton = driver.findElement(By.xpath("/html/body/app-root/app-login/div/div[2]/div/form/div[4]/button"));
+            loginButton.click();
+            Thread.sleep(1000);
+            WebElement succes = driver.findElement(By.id("error-message"));
+            assertEquals(succes.getText(), "Invalid username or password", "Title should match");
+
+        } finally {
+            driver.quit();
+        }
+    }
+
+    @Test
+    public void TestShowPassword() throws InterruptedException {
+        WebDriverManager.chromedriver().setup();
+        WebDriver driver = new ChromeDriver();
+
+        try {
+            driver.get(BASE_URL);
+            WebElement username = driver.findElement(By.xpath("//*[@id=\"username\"]"));
+            WebElement password = driver.findElement(By.xpath("//*[@id=\"password\"]"));
+            username.sendKeys("a43");
+            password.sendKeys("133"); // Wrong Password
+            WebElement showPassword = driver.findElement(By.xpath("/html/body/app-root/app-login/div/div[2]/div/form/div[2]/div/button"));
+            WebElement passwordField = driver.findElement(By.xpath("//*[@id=\"password\"]"));
+            assertEquals(passwordField.getAttribute("value"), "133", "Password should match");
+        } finally {
+            driver.quit();
+        }
+    }
+
 }
